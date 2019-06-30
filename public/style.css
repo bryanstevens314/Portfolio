@@ -1,5 +1,7 @@
 body {
   font-family: sans-serif;
+  margin:0 auto;
+  background-color: #00356A;
 }
 
 a {
@@ -18,4 +20,109 @@ nav a {
 form div {
   margin: 1em;
   display: inline-block;
+}
+
+.nav {
+  width:100%;
+  height:62px;
+  background-color:#2F2F2F;
+  opacity: 0.5;
+  user-select: none;
+}
+
+.nav > img{
+  height:33px;
+  width:46px;
+  margin-top:13px;
+  float:right;
+
+}
+
+.nav > p {
+  color:#E8E8E8;
+  transform: rotate(90deg);
+  font-size: 25px;
+  margin-top:15px;
+  margin-left:15px;
+  float: left;
+  cursor: pointer;
+
+}
+.nav > p:hover {
+  color: #151515;
+}
+.texture{
+  position: absolute;
+  margin-top:-62px;
+  left:0px;
+  z-index: -1;
+  width:100%;
+  height:600px;
+  opacity: 0.71;
+}
+.texture>img{
+  width:100%;
+  height:600px;
+}
+.detail{
+  position: absolute;
+  background-color: #151515;
+  width: 100%;
+  height: 216px;
+  margin-top: 309px;
+  -webkit-transform: skewY(11deg);
+  -moz-transform: skewY(11deg);
+  -ms-transform: skewY(11deg);
+  -o-transform: skewY(11deg);
+  transform: skewY(11deg);
+}
+.wrapper{
+  -webkit-transform: skewY(-11deg);
+  -moz-transform: skewY(-11deg);
+  -ms-transform: skewY(-11deg);
+  -o-transform: skewY(-11deg);
+  transform: skewY(-11deg);
+}
+.des1{
+  width: 109px;
+  height: 55px;
+}
+.ASE{
+  width: 101px;
+  height: 101px;
+}
+.wrapper > p{
+  color:#DDDDDD;
+  width:85%;
+}
+.style{
+  position: absolute;
+  background-color: #000000;
+  width:100%;
+  height:20px;
+  margin-top:525px;
+  opacity: 0.2;
+  -webkit-transform: skewY(11deg);
+  -moz-transform: skewY(11deg);
+  -ms-transform: skewY(11deg);
+  -o-transform: skewY(11deg);
+  transform: skewY(11deg);
+}
+.leather_Detail{
+  position: absolute;
+  background-color: #272727;
+  width:100%;
+  height:400px;
+  margin-top:417px;
+  left: 0px;
+  z-index: -2;
+}
+.leather>img{
+  position: absolute;
+  width:100%;
+  height:400px;
+  margin-top:417px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.53;
 }
