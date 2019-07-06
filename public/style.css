@@ -1,65 +1,96 @@
 body {
-  font-family: sans-serif;
-  margin:0 auto;
   background-color: #00356A;
+  color:#EBEBEB;
+  margin:0 auto;
+  font-family: "HelveticaNeue-Light";
 }
-
-a {
-  text-decoration: none;
-}
-
-label {
-  display: block;
-}
-
-nav a {
-  display: inline-block;
-  margin: 1em;
-}
-
-form div {
-  margin: 1em;
-  display: inline-block;
-}
-
 .nav {
+  background-color:#2F2F2F;
   width:100%;
   height:62px;
-  background-color:#2F2F2F;
   opacity: 0.5;
   user-select: none;
 }
-
 .nav > img{
-  height:33px;
   width:46px;
+  height:33px;
   margin-top:13px;
   float:right;
-
 }
-
 .nav > p {
   color:#E8E8E8;
-  transform: rotate(90deg);
   font-size: 25px;
   margin-top:15px;
   margin-left:15px;
   float: left;
   cursor: pointer;
-
+  transform: rotate(90deg);
 }
 .nav > p:hover {
   color: #151515;
 }
 .texture{
   position: absolute;
+  width:100%;
+  height:600px;
   margin-top:-62px;
   left:0px;
   z-index: -1;
-  width:100%;
-  height:600px;
   opacity: 0.71;
 }
+.personal_details{
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  width:95%;
+  margin-top: 20px;
+  margin-left: 8px;
+}
+.personal_details>div>p:nth-child(1){
+  margin-top: 0px;
+  font-size: 25px;
+}
+.personal_details>div>p:nth-child(2){
+  margin-top: -25px;
+  margin-left:5px;
+  font-size: 14px;
+  font-family: "HelveticaNeue-Italic";
+}
+.personal_details>div>p:nth-child(4){
+  margin-top: 3px;
+  margin-left:5px;
+  font-size: 15px;
+  font-family: "HelveticaNeue-Italic";
+}
+.personal_details>div>p:nth-child(5){
+  margin-top: -13px;
+  margin-left:5px;
+  font-size: 15px;
+  font-family: "HelveticaNeue-Italic";
+}
+.personal_details>img{
+  position: relative;
+  width:130px;
+  height:130px;
+  margin-left:10px;
+  border-radius: 50%;
+}
+.personal_details>div>div{
+  margin-top: -6px;
+  margin-left:5px;
+  margin-top: -9px;
+}
+.personal_details>div>div>a>img{
+  width:25px;
+  height:25px;
+  margin-right:15px;
+  cursor: pointer;
+  user-select: none;
+}
+.personal_details>div>div>a:nth-child(2)>img{
+  border-radius: 50%;
+}
+
 .texture>img{
   width:100%;
   height:600px;
@@ -123,6 +154,6 @@ form div {
   height:400px;
   margin-top:417px;
   left: 0px;
-  z-index: -1;
   opacity: 0.53;
+  z-index: -1;
 }
