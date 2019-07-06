@@ -14,7 +14,7 @@ export default class App extends Component {
           this.setState({
             loading: false
           })
-        }, 1000);
+        }, 2800);
       }
     }
   }

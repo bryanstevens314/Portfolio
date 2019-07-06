@@ -11,7 +11,9 @@ const Home = () => (
 )
 
 const Texture = () => (
-  <img className="texture" src="./texture.jpg" />
+  <div className="texture_Background">
+    <img className="texture" src="./texture.jpg" />
+  </div>
 )
 const DetailsCard = () => (
   <div className="personal_details">
