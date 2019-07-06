@@ -149,7 +149,7 @@ function (_Component) {
           _this.setState({
             loading: false
           });
-        }, 2800);
+        }, 1);
       }
     };
     return _this;
@@ -251,7 +251,13 @@ var Leather = function Leather() {
     className: "leather_Detail"
   }), _react.default.createElement("img", {
     src: "./leather.jpg"
-  }));
+  }), _react.default.createElement("div", null, _react.default.createElement("img", {
+    src: "./react.png"
+  }), _react.default.createElement("img", {
+    src: "./angular.png"
+  }), _react.default.createElement("img", {
+    src: "./fullstack.png"
+  })));
 };
 
 var _default = Home;

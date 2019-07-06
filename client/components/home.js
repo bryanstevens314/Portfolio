@@ -54,6 +54,11 @@ const Leather = () => (
   <div className="leather">
     <div className="leather_Detail" />
     <img src="./leather.jpg" />
+    <div>
+      <img src="./react.png" />
+      <img src="./angular.png" />
+      <img src="./fullstack.png" />
+    </div>
   </div>
 )
 

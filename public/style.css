@@ -125,7 +125,7 @@ body {
   background-color: #151515;
   width: 100%;
   height: 216px;
-  margin-top: 309px;
+  margin-top: 235px;
   -webkit-transform: skewY(11deg);
   -moz-transform: skewY(11deg);
   -ms-transform: skewY(11deg);
@@ -168,17 +168,40 @@ body {
   position: absolute;
   background-color: #272727;
   width:100%;
-  height:400px;
+  height:100%;
+  z-index: -2;
+}
+.leather{
+  background-color: black;
+  position: absolute;
+  width:100%;
+  height:300px;
   margin-top:417px;
   left: 0px;
-  z-index: -2;
+  z-index: -1;
 }
 .leather>img{
   position: absolute;
   width:100%;
-  height:400px;
-  margin-top:417px;
-  left: 0px;
+  height:100%;
   opacity: 0.53;
   z-index: -1;
+}
+.leather>div:nth-child(3){
+  text-align: center;
+  padding-top: 250px;
+}
+.leather>div>img:nth-child(1) {
+  margin-right: 13px;
+  width:35px;
+  height:32px;
+}
+.leather>div>img:nth-child(2){
+  margin-right: 30px;
+  width:35px;
+  height:35px;
+}
+.leather>div>img:nth-child(3){
+  width: 140px;
+  height: 35px;
 }
