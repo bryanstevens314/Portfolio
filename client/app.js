@@ -3,6 +3,7 @@ import { Navbar } from './components'
 import Routes from './routes'
 import Loading from './loading';
 
+
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -13,7 +14,7 @@ export default class App extends Component {
           this.setState({
             loading: false
           })
-        }, 800);
+        }, 1000);
       }
     }
   }
@@ -22,13 +23,12 @@ export default class App extends Component {
 
   }
   render() {
-    return this.state.loading ? (
-      <Loading />
-    ) : (
-        <div>
-          <Navbar />
-          <Routes />
-        </div>
-      )
+    return (
+      <div>
+        <Loading loading={this.state.loading} />
+        <Navbar />
+        <Routes />
+      </div>
+    )
   }
 }
