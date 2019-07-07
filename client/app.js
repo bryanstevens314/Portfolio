@@ -23,11 +23,15 @@ export default class App extends Component {
 
   }
   render() {
+    const class_name = this.state.loading ? "hidden" : "container"
     return (
       <div>
         <Loading loading={this.state.loading} />
-        <Navbar />
-        <Routes />
+        <div className={class_name}>
+          <Navbar />
+          <Routes />
+        </div>
+
       </div>
     )
   }

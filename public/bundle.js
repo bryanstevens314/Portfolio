@@ -149,7 +149,7 @@ function (_Component) {
           _this.setState({
             loading: false
           });
-        }, 1);
+        }, 2800);
       }
     };
     return _this;
@@ -163,9 +163,12 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
+      var class_name = this.state.loading ? "hidden" : "container";
       return _react.default.createElement("div", null, _react.default.createElement(_loading.default, {
         loading: this.state.loading
-      }), _react.default.createElement(_components.Navbar, null), _react.default.createElement(_routes.default, null));
+      }), _react.default.createElement("div", {
+        className: class_name
+      }, _react.default.createElement(_components.Navbar, null), _react.default.createElement(_routes.default, null)));
     }
   }]);
 

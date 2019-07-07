@@ -1,0 +1,284 @@
+$width: 100%;
+$height: 100%;
+$break_large: 400px;
+@media screen and (min-width: $break_large) {
+  div{
+    width:$break_large;
+  }
+  // .loading{
+  //   width: $break_large;
+  // }
+  // .nav{
+  //   width: $break_large;
+  // }
+  // .texture{
+  //   width: $break_large;
+  // }
+  .texture_Background>img{
+    width: $break_large;
+  }
+  .personal_details{
+    width: $break_large;
+  }
+  // .detail{
+  //   width: $break_large;
+  // }
+  // .wrapper{
+  //   width: $break_large;
+  // }
+  .wrapper > p{
+    width: $break_large - 80;
+  }
+  // .leather_Detail{
+  //   width: $break_large;
+  // }
+  // .leather{
+  //   width: $break_large;
+  // }
+  .leather>img{
+    width: $break_large;
+  }
+}
+@media screen and (max-width: $break_large) {
+  div{
+    width:$width;
+  }
+  // .loading{
+  //   width: $width;
+  // }
+  // .nav{
+  //   width: $width;
+  // }
+  // .texture{
+  //   width: $width;
+  // }
+  .texture_Background>img{
+    width: $width;
+  }
+  // .personal_details{
+  //   width: $width;
+  // }
+  // .detail{
+  //   width: $width;
+  // }
+  // .wrapper{
+  //   width: $width;
+  // }
+  .wrapper > p{
+    width: $width - 80;
+  }
+  // .leather_Detail{
+  //   width: $width;
+  // }
+  // .leather{
+  //   width: $width;
+  // }
+  .leather>img{
+    width: $width;
+  }
+}
+#app{
+  margin:0 auto;
+}
+.container{
+  position: absolute;
+}
+body {
+  background-color: white;
+  color:#EBEBEB;
+  margin:0 auto;
+  font-family: "HelveticaNeue-Light";
+}
+.loading{
+  position:absolute;
+  background-color:#f2f2f2;
+  height:100%;
+  z-index: 1;
+}
+.hidden{
+  visibility: hidden;
+  position: fixed;
+}
+.circle_Loader{
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  margin-top: 65%;
+}
+.nav {
+  background-color:#2F2F2F;
+
+
+  height:62px;
+  opacity: 0.5;
+  user-select: none;
+}
+.nav > img{
+  width:33px;
+  height:33px;
+  margin-top:13px;
+  float:right;
+}
+.nav > p {
+  color:#E8E8E8;
+  font-size: 25px;
+  margin-top:15px;
+  margin-left:15px;
+  float: left;
+  cursor: pointer;
+  transform: rotate(90deg);
+}
+.nav > p:hover {
+  color: #151515;
+}
+.texture{
+  position: absolute;
+  height:600px;
+  margin-top:-62px;
+  left:0px;
+  z-index: -1;
+  opacity: 0.71;
+}
+.texture_Background{
+  background-color:#00356A;
+  position: absolute;
+  height:600px;
+  margin-top:-62px;
+  left:0px;
+  z-index: -2;
+}
+.personal_details{
+  justify-content: center;
+  position: absolute;
+  margin-top: 20px;
+}
+.personal_details>div{
+  position: absolute;
+  margin-left: 15px;
+}
+.personal_details>div>p:nth-child(1){
+  margin-top: 0px;
+  font-size: 35px;
+}
+.personal_details>div>p:nth-child(2){
+  margin-top: -33px;
+  margin-left:5px;
+  font-size: 14px;
+  font-family: "HelveticaNeue-LightItalic";
+}
+.personal_details>div>p:nth-child(4){
+  margin-top: 2px;
+  margin-left:5px;
+  font-size: 15px;
+  font-family: "HelveticaNeue-LightItalic";
+}
+.personal_details>div>p:nth-child(5){
+  margin-top: -13px;
+  margin-left:5px;
+  font-size: 15px;
+  font-family: "HelveticaNeue-LightItalic";
+}
+.personal_details>img{
+  float:right;
+  width:130px;
+  height:130px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.personal_details>div>div{
+  margin-left:5px;
+  margin-top: -7px;
+}
+.personal_details>div>div>a>img{
+  width:25px;
+  height:25px;
+  margin-right:15px;
+  cursor: pointer;
+  user-select: none;
+}
+.personal_details>div>div>a:nth-child(2)>img{
+  border-radius: 50%;
+}
+
+.texture>img{
+  height:600px;
+}
+.detail{
+  position: absolute;
+  background-color: #151515;
+  height: 216px;
+  margin-top: 235px;
+  -webkit-transform: skewY(11deg);
+  -moz-transform: skewY(11deg);
+  -ms-transform: skewY(11deg);
+  -o-transform: skewY(11deg);
+  transform: skewY(11deg);
+}
+.wrapper{
+  -webkit-transform: skewY(-11deg);
+  -moz-transform: skewY(-11deg);
+  -ms-transform: skewY(-11deg);
+  -o-transform: skewY(-11deg);
+  transform: skewY(-11deg);
+}
+.des1{
+  width: 109px;
+  height: 55px;
+}
+.ASE{
+  width: 101px;
+  height: 101px;
+}
+.wrapper > p{
+  color:#DDDDDD;
+}
+.style{
+  position: absolute;
+  background-color: #000000;
+  height:20px;
+  margin-top:525px;
+  opacity: 0.2;
+  -webkit-transform: skewY(11deg);
+  -moz-transform: skewY(11deg);
+  -ms-transform: skewY(11deg);
+  -o-transform: skewY(11deg);
+  transform: skewY(11deg);
+}
+.leather_Detail{
+  position: absolute;
+  background-color: #272727;
+  height:100%;
+  z-index: -2;
+}
+.leather{
+  background-color: black;
+  position: absolute;
+  height:300px;
+  margin-top:417px;
+  left: 0px;
+  z-index: -1;
+}
+.leather>img{
+  position: absolute;
+  height:100%;
+  opacity: 0.53;
+  z-index: -1;
+}
+.leather>div:nth-child(3){
+  text-align: center;
+  padding-top: 250px;
+}
+.leather>div>img:nth-child(1) {
+  margin-right: 13px;
+  width:35px;
+  height:32px;
+}
+.leather>div>img:nth-child(2){
+  margin-right: 30px;
+  width:35px;
+  height:35px;
+}
+.leather>div>img:nth-child(3){
+  width: 140px;
+  height: 35px;
+}
