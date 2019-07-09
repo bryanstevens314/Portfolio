@@ -21,14 +21,15 @@ const DetailsCard = () => (
       <p>Bryan Stevens</p>
       <p>26 - San Luis Obispo, CA</p>
       <div>
-        <a href="https://www.linkedin.com/in/bryan-stevens314/" target="_blank">
-          <img src="./linkedin.png" />
+        <a>
+          <img src="./connect.png" />
         </a>
         <a href="https://github.com/bryanstevens314/Portfolio" target="_blank">
           <img src="./github.png" />
         </a>
-        <a>
-          <img src="./connect.png" />
+
+        <a href="https://www.linkedin.com/in/bryan-stevens314/" target="_blank">
+          <img src="./linkedin.png" />
         </a>
       </div>
       <p>Software Engineer</p>

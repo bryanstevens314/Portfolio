@@ -216,18 +216,18 @@ var Texture = function Texture() {
 var DetailsCard = function DetailsCard() {
   return _react.default.createElement("div", {
     className: "personal_details"
-  }, _react.default.createElement("div", null, _react.default.createElement("p", null, "Bryan Stevens"), _react.default.createElement("p", null, "26 - San Luis Obispo, CA"), _react.default.createElement("div", null, _react.default.createElement("a", {
-    href: "https://www.linkedin.com/in/bryan-stevens314/",
-    target: "_blank"
-  }, _react.default.createElement("img", {
-    src: "./linkedin.png"
+  }, _react.default.createElement("div", null, _react.default.createElement("p", null, "Bryan Stevens"), _react.default.createElement("p", null, "26 - San Luis Obispo, CA"), _react.default.createElement("div", null, _react.default.createElement("a", null, _react.default.createElement("img", {
+    src: "./connect.png"
   })), _react.default.createElement("a", {
     href: "https://github.com/bryanstevens314/Portfolio",
     target: "_blank"
   }, _react.default.createElement("img", {
     src: "./github.png"
-  })), _react.default.createElement("a", null, _react.default.createElement("img", {
-    src: "./connect.png"
+  })), _react.default.createElement("a", {
+    href: "https://www.linkedin.com/in/bryan-stevens314/",
+    target: "_blank"
+  }, _react.default.createElement("img", {
+    src: "./linkedin.png"
   }))), _react.default.createElement("p", null, "Software Engineer"), _react.default.createElement("p", null, "Freelance Mechanic")), _react.default.createElement("img", {
     src: "./portrait.JPG"
   }));
