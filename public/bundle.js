@@ -241,10 +241,10 @@ var Detail = function Detail() {
   }, _react.default.createElement("img", {
     className: "des1",
     src: "./<>.png"
-  }), _react.default.createElement("img", {
+  }), _react.default.createElement("p", null, "\"Software Engineer turned Mechanic. I am a Central Coast local constantly striving towards a better life for myself and those around me. Let\u2019s chat.\""), _react.default.createElement("img", {
     className: "ASE",
     src: "./ASE.png"
-  }), _react.default.createElement("p", null, "\"Software Engineer turned Mechanic. I am a Central Coast local constantly striving towards a better life for myself and those around me. Let\u2019s chat.\"")));
+  })));
 };
 
 var Style = function Style() {

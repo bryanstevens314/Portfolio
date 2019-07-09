@@ -225,27 +225,24 @@ body {
   transform: skewY(-11deg);
 }
 .des1{
-  position: absolute;
   opacity: 0.1;
-  margin-top: -28px;
+  margin-top: -22px;
   margin-left: -8px;
   width: 100px;
   height: 55px;
 }
 .ASE{
-  position: absolute;
   opacity: 0.1;
   width: 101px;
   height: 101px;
-  margin-top: 133px;
-  margin-left: 288px;
+  margin-top: 11px;
+  margin-left: 290px;
 }
-.wrapper > p{
-    /* top: 58px; */
-    margin: 0 auto;
-    padding-top: 64px;
-    color: #DDDDDD;
-    font-family: "HelveticaNeue-LightItalic";
+.wrapper > p {
+  margin: 0 auto;
+  margin-top: 32px;
+  color: #DDDDDD;
+  font-family: "HelveticaNeue-LightItalic";
 }
 .style{
   position: absolute;

@@ -42,8 +42,9 @@ const Detail = () => (
   <div className="detail">
     <div className="wrapper">
       <img className="des1" src="./<>.png" />
-      <img className="ASE" src="./ASE.png" />
       <p>"Software Engineer turned Mechanic. I am a Central Coast local constantly striving towards a better life for myself and those around me. Let’s chat."</p>
+      <img className="ASE" src="./ASE.png" />
+
     </div>
   </div>
 )
