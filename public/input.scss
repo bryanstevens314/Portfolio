@@ -23,11 +23,12 @@ $break_large: 400px;
   // .detail{
   //   width: $break_large;
   // }
-  // .wrapper{
-  //   width: $break_large;
-  // }
+  .wrapper{
+    width: $break_large;
+    height: 216px;
+  }
   .wrapper > p{
-    width: $break_large - 80;
+    width: $break_large - 40;
   }
   // .leather_Detail{
   //   width: $break_large;
@@ -61,11 +62,12 @@ $break_large: 400px;
   // .detail{
   //   width: $width;
   // }
-  // .wrapper{
-  //   width: $width;
-  // }
+  .wrapper{
+    width: $width;
+  }
   .wrapper > p{
-    width: $width - 80;
+    width: $width - 50;
+    height: 216px;
   }
   // .leather_Detail{
   //   width: $width;
@@ -223,15 +225,27 @@ body {
   transform: skewY(-11deg);
 }
 .des1{
-  width: 109px;
+  position: absolute;
+  opacity: 0.1;
+  margin-top: -28px;
+  margin-left: -8px;
+  width: 100px;
   height: 55px;
 }
 .ASE{
+  position: absolute;
+  opacity: 0.1;
   width: 101px;
   height: 101px;
+  margin-top: 133px;
+  margin-left: 288px;
 }
 .wrapper > p{
-  color:#DDDDDD;
+    /* top: 58px; */
+    margin: 0 auto;
+    padding-top: 64px;
+    color: #DDDDDD;
+    font-family: "HelveticaNeue-LightItalic";
 }
 .style{
   position: absolute;
