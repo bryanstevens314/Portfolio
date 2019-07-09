@@ -149,7 +149,7 @@ function (_Component) {
           _this.setState({
             loading: false
           });
-        }, 2800);
+        }, 1);
       }
     };
     return _this;

@@ -114,10 +114,11 @@ body {
   user-select: none;
 }
 .nav > img{
-  width:33px;
-  height:33px;
-  margin-top:13px;
-  float:right;
+  width: 33px;
+  height: 29px;
+  margin-top: 17px;
+  margin-right: 8px;
+  float: right;
 }
 .nav > p {
   color:#E8E8E8;
@@ -154,14 +155,14 @@ body {
 }
 .personal_details>div{
   position: absolute;
-  margin-left: 15px;
+  margin-left: 8px;
 }
 .personal_details>div>p:nth-child(1){
   margin-top: 0px;
-  font-size: 35px;
+  font-size: 28px;
 }
 .personal_details>div>p:nth-child(2){
-  margin-top: -33px;
+  margin-top: -30px;
   margin-left:5px;
   font-size: 14px;
   font-family: "HelveticaNeue-LightItalic";
@@ -173,7 +174,7 @@ body {
   font-family: "HelveticaNeue-LightItalic";
 }
 .personal_details>div>p:nth-child(5){
-  margin-top: -13px;
+  margin-top: -16px;
   margin-left:5px;
   font-size: 15px;
   font-family: "HelveticaNeue-LightItalic";
@@ -182,7 +183,7 @@ body {
   float:right;
   width:130px;
   height:130px;
-  margin-right: 15px;
+  margin-right: 8px;
   border-radius: 50%;
 }
 .personal_details>div>div{
@@ -236,8 +237,9 @@ body {
   position: absolute;
   background-color: #000000;
   height:20px;
-  margin-top:525px;
+  margin-top: 451px;
   opacity: 0.2;
+  z-index: 1;
   -webkit-transform: skewY(11deg);
   -moz-transform: skewY(11deg);
   -ms-transform: skewY(11deg);
