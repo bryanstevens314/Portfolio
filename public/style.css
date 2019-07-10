@@ -3,6 +3,10 @@
     width: 400px;
   }
 
+  .loading {
+    width: 400px;
+  }
+
   .texture_Background > img {
     width: 400px;
   }
@@ -17,7 +21,7 @@
   }
 
   .wrapper > p {
-    width: 360px;
+    width: 90%;
   }
 
   .leather > img {
@@ -26,6 +30,10 @@
 }
 @media screen and (max-width: 400px) {
   div {
+    width: 100%;
+  }
+
+  .loading {
     width: 100%;
   }
 
@@ -38,7 +46,7 @@
   }
 
   .wrapper > p {
-    width: 50%;
+    width: 90%;
     height: 216px;
   }
 
@@ -222,16 +230,17 @@ body {
 }
 
 .ASE {
+  float: right;
   opacity: 0.1;
   width: 101px;
   height: 101px;
-  margin-top: 11px;
-  margin-left: 290px;
+  margin-top: -140px;
+  margin-right: 8px;
 }
 
 .wrapper > p {
   margin: 0 auto;
-  margin-top: 32px;
+  margin-top: 16px;
   color: #DDDDDD;
   font-family: "HelveticaNeue-LightItalic";
 }

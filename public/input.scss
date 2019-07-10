@@ -5,9 +5,9 @@ $break_large: 400px;
   div{
     width:$break_large;
   }
-  // .loading{
-  //   width: $break_large;
-  // }
+  .loading{
+    width: $break_large;
+  }
   // .nav{
   //   width: $break_large;
   // }
@@ -28,7 +28,7 @@ $break_large: 400px;
     height: 216px;
   }
   .wrapper > p{
-    width: $break_large - 40;
+    width: 90%;;
   }
   // .leather_Detail{
   //   width: $break_large;
@@ -44,9 +44,9 @@ $break_large: 400px;
   div{
     width:$width;
   }
-  // .loading{
-  //   width: $width;
-  // }
+  .loading{
+    width: $width;
+  }
   // .nav{
   //   width: $width;
   // }
@@ -66,7 +66,7 @@ $break_large: 400px;
     width: $width;
   }
   .wrapper > p{
-    width: $width - 50;
+    width: 90%;;
     height: 216px;
   }
   // .leather_Detail{
@@ -232,15 +232,23 @@ body {
   height: 55px;
 }
 .ASE{
+  float: right;
   opacity: 0.1;
   width: 101px;
   height: 101px;
-  margin-top: 11px;
-  margin-left: 290px;
+  margin-top: -140px;
+  margin-right: 8px;
 }
+// .ASE{
+//   opacity: 0.1;
+//   width: 101px;
+//   height: 101px;
+//   margin-top: 11px;
+//   margin-left: 290px;
+// }
 .wrapper > p {
   margin: 0 auto;
-  margin-top: 32px;
+  margin-top: 16px;
   color: #DDDDDD;
   font-family: "HelveticaNeue-LightItalic";
 }
